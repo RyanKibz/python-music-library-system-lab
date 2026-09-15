@@ -56,13 +56,3 @@ class Song:
         # Update singular attribute to satisfy test suite
         cls.artist_count[artist] = cls.artists_count[artist]
 
-if __name__ == "__main__":
-    song1 = Song("Halo", "Beyonce", "Pop")
-    song2 = Song("Crazy in Love", "Beyonce", "R&B")
-    song3 = Song("Numb", "Linkin Park", "Rock")
-
-    print("Total songs:", Song.count)
-    print("Genres:", Song.genres)
-    print("Artists:", Song.artists)
-    print("Genre count:", Song.genre_count)
-    print("Artist count:", Song.artists_count)
